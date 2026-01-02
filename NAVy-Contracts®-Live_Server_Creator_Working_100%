@@ -1,0 +1,6 @@
+# Apply override to all files in the directory
+project-docs/* linguist-documentation
+# Apply override to a specific file
+docs/formatter.rb -linguist-documentation
+# Apply override to all files and directories in the directory
+ano-dir/** linguist-documentation
